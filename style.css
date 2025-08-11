@@ -1,0 +1,169 @@
+/* //Nia Manning
+//August 13th, 2025
+//Sound Blvd. Records */
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #f4f4f4;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*nav-bar*/
+header nav{
+    background-color: #111;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    padding:15px;
+} nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+} nav a:focus, nav a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*hero image*/
+.hero{
+    position: relative;
+    text-align: center;
+    color: white;
+} .hero img{
+    width: 100vw;
+    height: 100%;
+    display: block;
+}
+.hero-text{
+    position: absolute;
+    width: 100vw; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    /* border-radius: 10px; */
+}
+.btn{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e91e63; /*#f0129f*/
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/*product grid*/
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* grid-template-columns: repeat(4, 1fr); */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 15px;
+}
+
+.product-card{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px;
+    padding: 16px;
+    text-align: center;
+    transition: transform(-5px);
+}
+
+.product-card:hover{
+    transform: translateY(-5px);
+}
+
+.product-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card h3{
+    margin: 10px 0 5px;
+}
+
+.price{
+    color: #e91e63;
+    font-weight: bold;
+}
+
+.cart-button{
+    background-color: #222;
+    color: whitesmoke;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+} .cart-button:hover{
+    background-color: #444;
+}
+
+/*contact us page*/
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+label{
+    display: block;
+    margin: 12px 0 4px;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn-contact{
+    background-color: #222;
+    color: whitesmoke;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+} .btn-contact:hover{
+    background-color: #444;
+}
+
+/*footer*/
+footer{
+    background-color: #111;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+}
+.home-footer, .contact-footer{
+    position: fixed;
+    width: 100vw;
+    background-color: #111;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    bottom: 0; 
+}
+
+.social-media a{
+    color: #e91e63; 
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
