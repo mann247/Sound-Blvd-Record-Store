@@ -31,3 +31,4 @@ The Contact Page Consists of:
 2. Email Input
 3. Message Text Box
 4. If there are no input values, the user will be notified.
+    - The user will also be notified if there is an invalid name, and email.

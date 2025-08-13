@@ -86,14 +86,9 @@ h4{
     text-align: center;
     box-sizing: border-box;
 
-    /* width: 100%;
-    left: 16px;
-    right: 16px;
-    bottom: 16px; */
 }
 
 .btn{
-    /* display: inline-block; */
     margin-top: 12px;
     padding: 10px 20px;
     background-color: #e91e63;
@@ -158,12 +153,9 @@ h4{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    /* will-change: transform; */
-    /* animation: marquee-scroll 4s linear infinite; */
 }
 
 .marquee:hover .marquee-track{
-    /* animation-play-state: paused; */
     cursor: pointer;
 }
 
@@ -176,8 +168,6 @@ h4{
     width: auto;
     object-fit: cover;
     display: block;
-    /* border-radius: 6px; */
-    /* box-shadow: 0 2px 6px rgba(0,0,0,0.25); */
 }
 
 /* Product Grid (mobile)*/
@@ -303,17 +293,9 @@ footer{
         gap: 24px;
     }
     .hero-img{
-        /* height: 420px; */
         aspect-ratio: 21/9;
     }
     .hero-text{
-        /* left: 50%;
-        top: 50%;
-        right: auto;
-        bottom: auto;
-        transform: translate(-50%,-50%);
-        max-width: 800px;
-        text-align: center; */
         padding: 32px;
         font-size: 1.1rem;
     }
@@ -326,28 +308,14 @@ footer{
     }
 }
 
-/* Marquee - reduces Motion */
-/* @media(prefers-reduced-motion: reduce){
-    .marquee-track{
-        animation: none;
-        transform: none;
-    }
-}*/
+
 @media(min-width: 800px){
     .marquee-item img{
         height: 200px;
         width: auto;
     }
 } 
-/* @keyframes marquee-scroll{
-    0%{
-      transform: translateX(0);
-    }
-    100%{
-        
-        transform: translateX(-50%);
-    }
-} */
+
 
 @media(max-width: 800px){
     .about{

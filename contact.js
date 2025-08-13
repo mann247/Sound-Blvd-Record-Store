@@ -53,6 +53,7 @@ function validateEmail(){
     return true;
 }
 
+//message validation
 function validateMessage(){
     const value = messageInput.value.trim();
     if (value ===''){
@@ -87,25 +88,3 @@ form.addEventListener('submit', function(e){
         console.log('Information Submitted.');
     }
 });
-
-
-
-
-//Test - email validation
-// function validateForm(){
-//     const email = document.getElementById("email").value;
-//     const name = document.getElementById("name").value;
-
-//     // if(!name.includes("0-9")){
-//     //     alert("Please put your name.");
-//     //     console.log("Name not entered.");
-//     //     return false;
-//     // }
-//     if(!email.includes("@")){
-//         alert("Please enter a valid email.");
-//         console.log("Email isn't submitted");
-//         return false;
-//     }
-//     console.log("Contact Information is submitted");
-//     return true;
-// }
