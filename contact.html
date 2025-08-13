@@ -1,3 +1,6 @@
+<!-- //Nia Manning
+//August 13th, 2025
+//Sound Blvd. Records -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,30 +22,36 @@
     <!-- Main Section-->
     <main>
         <h1> Contact Us</h1>
-        <form aria-label="Contact Form" onsubmit="return validateForm()">
+        <!-- <form aria-label="Contact Form" onsubmit="return validateForm()"> -->
+            <form  aria-label="Contact Form" id="contactForm" novalidate>
             <!-- User Input for Name-->
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required />
+            <label for="name">Name*</label>
+            <input type="text" id="name" name="name" placeholder="Teena Marie" autocomplete="user-name" required/>
+            <span class="error-msg" id="name-error" aria-live="polite"></span>
         
             <!-- User Input for Email-->
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" placeholder="teena.marie@email.com" autocomplete="off" required/>
+            <span class="error-msg" id="email-error" aria-live="polite"></span>
 
-            <label for="comment">Your Message</label>
-            <textarea id="comment" name="comment" rows="5" required></textarea>
+            <!-- User Input for Message-->
+            <label for="comment">Your Message*</label>
+            <textarea id="comment" name="comment" rows="5" placeholder="Speak your mind." required></textarea>
+            <span class="error-msg" id="message-error" aria-live="polite"></span>
 
             <button class="btn-contact" type="submit">Send</button>
         </form>    
     </main>
 
-
     <!-- Footer Section-->
-     <footer class="contact-footer">
+        <footer class="social-media">
         <p>&copy; 2025 Sound Blvd. Records</p>
-        <div class="social-media">
-            <a href="#" aria-label="Instagram" target="_blank">Instagram</a>
-            <a href="#" aria-label="Twitter" target="_blank">Twitter</a>
+           <a href="https://www.instagram.com/sound.blvd_/?hl=en" aria-label="Instagram" target="_blank"><img src="images/instagram.png" alt="instagram logo"></a>
+            <a href="https://x.com/sound_blvd" aria-label="Twitter" target="_blank"><img src="images/twitter.png"></a>
+            <a href="https://medium.com/@ifsoundblvdcouldtalk" aria-label="Medium" target="_blank"><img src="images/medium.png"></a>
         </div>
     </footer>
+
+    <script src="contact.js"></script>
 </body>
 </html>
