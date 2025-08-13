@@ -2,6 +2,7 @@
 //August 13th, 2025
 //Sound Blvd. Records
 
+"use strict";
 document.addEventListener('DOMContentLoaded', function(){
     //Finds where the pictures will go in the html
     var marqueeTrack = document.getElementById('marqueeTrack');

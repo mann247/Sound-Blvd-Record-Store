@@ -2,7 +2,6 @@
 August 13th, 2025
 Sound Blvd. Records */
 
-
 /* Mobile First */
 html, body{
     height: 100%;
@@ -43,7 +42,7 @@ nav a:focus, a:hover{
 
 h1{
     text-align: center;
-    text-decoration: underline;
+    color: #e91e63;
 }
 h4{
     text-align: center;
