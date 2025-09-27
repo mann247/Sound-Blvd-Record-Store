@@ -1,30 +1,30 @@
 # 💽 Sound-Blvd-Record-Store
 
+A vinyl inspired e-commerce website built with HTML, CSS, and JavaScript. Users can browse albums, explore product details, and contact the store through a functional form.
 
-Welcome to the Sound Blvd.
+⚡️ Features
+1. Home Page
+   - Hero Banner and "About Us" Section
+   - Slider image of featured albums linking to the product page
+2. Product Page
+   - 12 albums from artists including:
+         1. Lauryn Hill
+         2. Erykah Badu
+         3. Michael Jackson
+         4. Outkast
+   - Dynamic product loading from a JSON file
+3. Contact Page
+   - Name, Email, and Message form inputs
+   - Clint-side validation with user-friendly error handling
+   
+   
+💻 Technology Used
 
-The Home Page consists of the following: 
-1. Hero Image
-2. About Us Section
-3. A Glimpse of the albums that we currently have in stock
-    - (User can scroll through, and click any image to go to the project page)
+1. HTML5
+2. CSS3
+3. JavaScript
 
-The Product Page Consists of:
-12 Albums from the following artists
-    - Lauryn Hill
-    - Erykah Badu
-    - Michael Jackson
-    - Rihanna
-    - Outkast
-    - Wu-Tang
-    - Kendrick Lamar
-    - A Tribe Called Quest
-    - Stevie Wonder
-    - Nas
-    - Marvin Gaye
-    - Mary J.
 
-The Contact Page Consists of:
-1. Name Inut
-2. Email Input
-3. Message Text Box
+👩🏾‍💻Author
+
+Created by Nia Manning for Road To Hire
