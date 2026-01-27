@@ -7,11 +7,7 @@ A vinyl inspired e-commerce website built with HTML, CSS, and JavaScript. Users 
    - Hero Banner and "About Us" Section
    - Slider image of featured albums linking to the product page
 2. Product Page
-   - 12 albums from artists including:
-         1. Lauryn Hill
-         2. Erykah Badu
-         3. Michael Jackson
-         4. Outkast
+   - 12 albums from artists including Lauryn Hill, Erykah Badu, Michael Jackson, Kendrick Lamar, and more
    - Dynamic product loading from a JSON file
 3. Contact Page
    - Name, Email, and Message form inputs
@@ -19,11 +15,9 @@ A vinyl inspired e-commerce website built with HTML, CSS, and JavaScript. Users 
    
    
 💻 Technology Used
-
 1. HTML5
 2. CSS3
 3. JavaScript
-
 
 👩🏾‍💻Author
 
